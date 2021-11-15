@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.header-container {
+  background-color: #61dbfb;
+  margin: 0px;
+  padding: 30px;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.logout {
+  position: relative;
+  float: right;
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  border-style: solid;
+  border: none;
+  border-color: black;
+  border-radius: 8px;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.logout:hover {
+  background-color: rgba(0, 0, 0, 0.151);
+}
+
+.title {
+  font-size: 35px;
+  position: relative;
+  font-family: "Comfortaa", cursive;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.test {
+  position: relative;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  width: 100%;
+  font-size: 35px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.test-btn {
+  position: relative;
+  font-family: "Comfortaa", cursive;
+  width: 100%;
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.drop-cont {
+  position: absolute;
+  left: 90%;
+  width: 10%;
+  float: right;
+  background-color: white;
+  box-shadow: 2.5px 2.5px 5px rgb(187, 187, 187);
+}
+
+.invisible {
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
+  pointer-events: none;
+}
+
+.no-dec {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.el-gray {
+  color: rgb(158, 158, 158);
+}
